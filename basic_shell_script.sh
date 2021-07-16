@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "yagnasri Chowdary Nalluri"
-echo "$date"
+echo -e "$date"
