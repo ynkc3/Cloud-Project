@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #!/bin/bash
 
 echo "yagnasri Chowdary Nalluri"
@@ -9,3 +10,6 @@ echo $*
 echo $#
 read -p 'enter your visa statusque:' visa
 echo -e "you are in $visa visa statusque"
+=======
+echo "testing >"
+>>>>>>> Stashed changes
