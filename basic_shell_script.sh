@@ -15,9 +15,6 @@ fun1(){
 }
 
 fun1
-=======
-read -p 'enter your visa statusque:' visa
-echo -e "you are in $visa visa statusque"
-=======
+
 echo "testing >"
 
