@@ -33,4 +33,6 @@ case $var1 in
         ;;
 esac
 
-for var2 in hello how are you; do echo "$var2";done;
+for var2 in hello how are you; do 
+    echo "$var2"
+done
