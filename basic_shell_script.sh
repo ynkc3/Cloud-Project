@@ -21,13 +21,16 @@ echo "testing >"
 case $var1 in
 	start)
 		echo "starting the service"
+        exit 0
 		;;
 	stop)
 		echo "stoping the service"
+        exit 1
         ;;
 	*)
 		echo -e "\e[1;31m enter start or stop \e[0m "
+        exit 2
         ;;
 esac
 
-
+for var2 in hello how are you; do echo "$var2";done;
