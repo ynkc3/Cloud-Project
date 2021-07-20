@@ -34,5 +34,5 @@ case $var1 in
 esac
 
 for var2 in hello how are you; do 
-    echo "$var2"
+    echo -e "$var2"
 done
