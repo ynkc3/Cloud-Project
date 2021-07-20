@@ -23,11 +23,11 @@ case $var1 in
 		echo "starting the service"
 		;;
 	stop)
-		 echo "stoping the service"
-                ;;
+		echo "stoping the service"
+        ;;
 	*)
-		 echo "enter start or stop"
-                ;;
+		echo -e "\e[1;31m enter start or stop \e[0m "
+        ;;
 esac
 
 
