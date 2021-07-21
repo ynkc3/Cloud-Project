@@ -38,3 +38,13 @@ do
     echo -e "$var2"
     exit 3
 done
+
+<<COMMENTS
+echo it's me 
+echo yagnasri
+COMMENTS
+
+for var3 in yagna what is your situation
+do
+    echo -e "$var3"
+done
