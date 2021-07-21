@@ -35,7 +35,7 @@ esac
 
 for var2 in hello how are you 
 do 
-    echo -e "$var2"
+    echo "$var2"
     exit 3
 done
 
